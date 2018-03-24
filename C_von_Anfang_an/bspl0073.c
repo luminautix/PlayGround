@@ -1,4 +1,4 @@
-/* bsp10073.c */
+/* bspl0073.c */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

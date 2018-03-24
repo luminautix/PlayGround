@@ -1,6 +1,6 @@
 /* bsp10048.c */
 #include <stdio.h>
-#include "bsp10048.h"
+#include "bspl0048.h"
 
 main(){
     double x = 4711.0, y = 11.0;

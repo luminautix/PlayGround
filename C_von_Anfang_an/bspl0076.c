@@ -5,13 +5,13 @@ main(){
 
     FILE *stream;
     /* Dateistream erstellen */
-    stream = fopen("bsp10076TestDatei", "w");
+    stream = fopen("bspl0076TestDatei", "w");
     /* Wenn Dateistream gültig, kann er jetzt geschlossen werden - die Datei ist erstellt */
     if(stream == NULL)
         fclose(stream);
 
 
-    if(rename("bsp10076TestDatei", "bsp10076Umbenannt") != 0)
+    if(rename("bspl0076TestDatei", "bspl0076Umbenannt") != 0)
         perror("Fehler beim Umbenennen");
     else
         printf("Datei umbenannt!");

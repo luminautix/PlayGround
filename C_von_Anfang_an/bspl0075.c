@@ -5,7 +5,7 @@ main(){
 
     FILE *stream;
     /* Dateistream erstellen */
-    stream = fopen("bsp10075TestDatei", "w");
+    stream = fopen("bspl0075TestDatei", "w");
     /* Wenn Dateistream gültig, kann er jetzt geschlossen werden - die Datei ist erstellt */
     if(stream == NULL)
         fclose(stream);
